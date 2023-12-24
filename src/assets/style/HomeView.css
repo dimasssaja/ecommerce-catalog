@@ -1,0 +1,44 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+}
+
+.container-product-men {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.bg-pattern-men {
+  background-image: url(../Bg-Pattern.svg);
+  background-color: #d6e6ff;
+  width: 100%;
+  height: 65%;
+  margin: 0;
+  position: absolute;
+  z-index: 0;
+}
+
+.bg-pattern-women {
+  background-image: url(../Bg-Pattern.svg);
+  background-color: #fde2ff;
+  width: 100%;
+  height: 65%;
+  margin: 0;
+  position: absolute;
+  z-index: 0;
+}
+
+.bg-pattern-unavailable {
+  background-color: #d8d7d7;
+  width: 100%;
+  height: 65%;
+  margin: 0;
+  position: absolute;
+  z-index: 0;
+}
